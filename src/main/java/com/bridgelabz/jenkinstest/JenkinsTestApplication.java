@@ -22,4 +22,8 @@ class JenkinsTestController {
 	public String welcome() {
 		return "welcome ";
 	}
+	@GetMapping("/")
+	public String emptyPage() {
+		return "testing jenkins";
+	}
 }
